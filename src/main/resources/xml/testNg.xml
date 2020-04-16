@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Test Suite">
+	<test name="login">
+		<classes>
+			<class name="com.nagp.testcase.TC_001_LoginPage" />
+
+		</classes>
+	</test>
+	<test name="register">
+		<classes>
+			<class name="com.nagp.testcase.TC_002_RegisterPage" />
+		</classes>
+	</test>
+	<test name="add to cart">
+		<classes>
+			<class name="com.nagp.testcase.TC_003_SearchAndAddToCart" />
+		</classes>
+	</test>
+
+	<test name="Place an Order">
+		<classes>
+			<class name="com.nagp.testcase.TC_004_SearchAndPlacedOrder" />
+
+		</classes>
+	</test> 
+	<test name="Contacts ">
+		<classes>
+			<class name="com.nagp.testcase.TC_005_ContactPage" />
+
+		</classes>
+	</test>
+
+</suite>
